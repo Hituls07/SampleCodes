@@ -1,3 +1,11 @@
+
+class Node:
+
+    def __init__(self, dataval):
+        self.dataval = dataval
+        self.nextval = None
+        
+        
 class SLinkedList:
 
     def __init__(self):
@@ -57,12 +65,6 @@ class SLinkedList:
         prival.nextval = prival.nextval.nextval
 
 
-
-class Node:
-
-    def __init__(self, dataval):
-        self.dataval = dataval
-        self.nextval = None
 
 
 
